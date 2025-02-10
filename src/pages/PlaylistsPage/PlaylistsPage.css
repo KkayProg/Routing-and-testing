@@ -1,0 +1,20 @@
+.playlists__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+}
+
+.playlist__link {
+    color: #008fff;
+}
+
+.playlist__link:hover {
+    color: #82f6f0;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

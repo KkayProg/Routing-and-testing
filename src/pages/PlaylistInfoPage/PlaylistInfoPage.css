@@ -1,0 +1,16 @@
+.playlist__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.playlist__list-item::before {
+    content: "- "; /* Добавляем дефис перед текстом */
+    color: #008fff;
+}
+
+.playlist__list-item {
+    color: #82f6f0;
+}
